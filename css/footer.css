@@ -1,0 +1,168 @@
+.row{
+  margin-right: 0px;
+}
+footer{
+  background-color: black;
+  height: 150px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 160px;
+}
+.logofooter img{
+  width: 85px;
+  height: 65px;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+.redes{
+  margin-left: 50px;
+}
+.redes img{
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.footercontact{
+ margin-top: 50px;
+ padding-left: 180px;
+ font-size: 20px;
+}
+.footercontact ul{
+ list-style: none;
+}
+.footercontact a{
+ text-decoration: none;
+ color:white;
+ font-family: 'Cinzel', serif;
+}
+ioni-icon{
+  margin-right: 10px;
+}
+
+
+@media(width:360px){
+  footer{
+    background-color: black;
+    height: 330px;
+  }
+  .row{
+    margin-right: 0px;
+  }
+.footercontact{
+  background-color: black;
+}
+.logofooter{
+  background-color: black;
+margin-left: 10px;
+}
+.logofooter img{
+  width: 85px;
+  height: 65px;
+  margin-left: 130px;
+  margin-top: 35px;
+}
+
+.footercontact {
+font-size: 15px;
+text-align: center;
+padding-left: 1px;
+margin-right: 25px;
+}
+.redes{
+  margin-left: 60px;
+}
+.redes img{
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+}
+
+}
+@media(width:411px){
+  footer{
+    background-color: black;
+    height: 330px;
+  }
+  .redes{
+    margin-left: 88px;
+  }
+  .footercontact {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 1px;
+  margin-right: 25px;
+  }
+  .logofooter img{
+    width: 85px;
+    height: 65px;
+    margin-left: 170px;
+    margin-top: 35px;
+  }
+  }
+@media(width:320px){
+  footer{
+    background-color: black;
+    height: 330px;
+  }
+  .footercontact {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 1px;
+  margin-right: 25px;
+  }
+  .logofooter img{
+    width: 85px;
+    height: 65px;
+    margin-left: 125px;
+    margin-top: 35px;
+  }
+  .redes{
+    margin-left: 45px;
+  }
+    }
+@media(width:375px){
+  footer{
+    background-color: black;
+    height: 330px;
+  }
+  .footercontact {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 1px;
+  margin-right: 25px;
+  }
+  .logofooter img{
+    width: 85px;
+    height: 65px;
+    margin-left: 145px;
+    margin-top: 35px;
+  }
+  .redes{
+    margin-left: 65px;
+  }
+      }
+@media(width:414px){
+  footer{
+    background-color: black;
+    height: 330px;
+  }
+  .redes{
+    margin-left: 88px;
+  }
+  .footercontact {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 1px;
+  margin-right: 25px;
+  }
+  .logofooter img{
+    width: 85px;
+    height: 65px;
+    margin-left: 170px;
+    margin-top: 35px;
+  }
+        }

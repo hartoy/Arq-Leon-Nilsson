@@ -1,0 +1,59 @@
+
+
+nav{
+  background-color: black;
+}
+
+.botones{
+font-size: 45px;
+
+}
+.botones a{
+  margin-left: 30px;
+  color:white;
+  font-family: 'Cinzel', serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:white !important;
+}
+.navbar-toggler-icon {
+    background: white;
+  }
+.navbar-toggler{
+    background: white;
+  }
+.logo img{
+  width: 85px;
+  height: 65px;
+  margin-left: 40px
+}
+.idiomas {
+ width: 165px;
+ height: 35px;
+ text-align: center;
+}
+.idiomas li{
+ display: inline-block;
+ margin:-12px;
+}
+
+span{
+  margin: 1px;
+}
+.idiomas a{
+  color: white;
+}
+span{
+  color:white;
+}
+
+@media(max-width:414px){
+  .logo img{
+    width: 85px;
+    height: 65px;
+    margin-left: 140px
+  }
+
+
+}

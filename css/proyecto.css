@@ -1,0 +1,36 @@
+h1{
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Cinzel', serif;
+}
+.galeriaproyectos{
+  margin-bottom: 20px;
+}
+.galeriaproyectos img{
+  width: 360px;
+  height: 200px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.galeriaproyectos img:hover{
+  opacity: 0.5;
+}
+i{
+  display: block;
+    width: 100%;
+    height: 2px;
+    background: #f38929;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width:414px){
+  .galeriaproyectos img{
+    height: 290px;
+    width: 335px;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+
+}

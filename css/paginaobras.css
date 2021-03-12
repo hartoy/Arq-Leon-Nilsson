@@ -1,0 +1,101 @@
+.titulo{
+  color:red;
+  text-align: center;
+  margin-top: 30px;
+}
+.titulo h2{
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+}
+h3{
+  font-family: 'Cinzel', serif;
+  color: black;
+}
+
+.descripcion p{
+  font-size: 20px;
+  color:black;
+  font-family: 'Encode Sans', sans-serif;
+}
+ i{
+  display: block;
+    width: 100%;
+    height: 2px;
+    background: #f38929;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.social{
+  text-align: center;
+  display: block;
+  height: 70px;
+}
+.datos img{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.datos{
+  color:gray;
+  font-family: 'Encode Sans', sans-serif;
+}
+.datos ul{
+  list-style-type: none;
+}
+.datos li::before {
+  content: "■ ";
+  color: red; /* or whatever color you prefer */
+}
+.ubicacion iframe{
+  height: 350px;
+  width: 350px;
+}
+.galeria img{
+  width: 100%;
+  height: 500px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.galeria{
+  margin-bottom: 20px;
+}
+@media(max-width:414px){
+ h2{
+   margin-bottom: 10px;
+ }
+
+  .descripcion p{
+    text-align: justify;
+  }
+.datos h3{
+  text-align: center;
+}
+.datos li{
+  font-size: 20px;
+}
+.datos img{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+i{
+ display: block;
+   width: 95%;
+   height: 2px;
+   background: #f38929;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+}
+.galeria img{
+  width: 104%;
+  height: 385px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+}
